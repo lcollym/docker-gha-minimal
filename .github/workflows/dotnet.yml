@@ -26,6 +26,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Echo test completion
-      run: dotnet  run --project ./TestCompletion/ --no-build
+    
+    - name: Run API
+      run: dotnet run --no-build --project ./docker-gha-minimal.csproj
     
