@@ -28,5 +28,5 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     
     - name: Run API
-      run: dotnet run --no-build --project ./docker-gha-minimal.csproj
+      run: ASPNETCORE_URLS=http://localhost:5102 dotnet run --no-build --project ./docker-gha-minimal.csproj
     
