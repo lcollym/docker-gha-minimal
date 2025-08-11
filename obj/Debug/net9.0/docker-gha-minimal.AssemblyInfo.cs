@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("docker-gha-minimal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc112e37501a1111715a89a29b62d3751d153e13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+620a865440d0f26f720bcedd5b0a087e221d2f5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("docker-gha-minimal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("docker-gha-minimal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
